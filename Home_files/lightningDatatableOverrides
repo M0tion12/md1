@@ -1,0 +1,12 @@
+a.slds-th__action {
+	pointer-events: none;
+	cursor: default;
+}
+
+.slds-is-sortable .slds-th__action:hover .slds-is-sortable__icon,
+.slds-is-sortable .slds-th__action:focus .slds-is-sortable__icon,
+.slds-is-sortable.slds-has-focus .slds-th__action .slds-is-sortable__icon,
+.slds-is-sortable.slds-has-focus .slds-th__action:hover .slds-is-sortable__icon,
+.slds-is-sortable.slds-has-focus .slds-th__action:focus .slds-is-sortable__icon {
+	display: none !important;
+}
